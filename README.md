@@ -21,4 +21,4 @@ Notable options which are intentionally not included are Gnome racial, Power Inf
 
 ## Under the Hood
 
-For an explanation of the method please see the write up included as **ApplicationWriteUp.pdf**.
+For an explanation of the method please see the write up included as [Application Write Up](https://github.com/MuirTheMage/ProbabilisticFireAnalysis/blob/master/ApplicationWriteUp.pdf).
