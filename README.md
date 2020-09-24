@@ -1,4 +1,6 @@
 # Probabilistic Fire Analysis
+[Click here](https://www.youtube.com/watch?v=Ymq60CjyUSs) for a quick video introduction. 
+
 ## Introduction and Usage
 
 This application is meant to compute the distribution of damage that a group of fire mages may expect to do. This may best be considered a mage team optimizer in that the output assumes that all mages have the stats. The innovation here is that a simulation at best can only sample this distribution rather than provide a full perspective as to the damage the mage team may do. Furthermore this application allows you to set a fight length determined by the number of casts.
