@@ -18,8 +18,8 @@ function [DPS,totalprobs,hitW, SPW,DPSW]= fireDPS(nmages,ncasts, int, SPgear,hit
     hitpct = min(83+6+hit,99)/100.0; % talented 6%
     critpct = crit/100.0;
     
-%    Transition = @(critpct,nmages, castTime,ncasts) fixedTransition(critpct,nmages, castTime,ncasts);
-     Transition = @(critpct,nmages, castTime,ncasts) expectedTransition(critpct,nmages, castTime,ncasts);
+%    Transition = @(critpct,nmages, castTime,ncasts) fixedTransition(critpct*hitpct,nmages, castTime,ncasts);
+    Transition = @(critpct,nmages, castTime,ncasts) expectedTransition(critpct*hitpct,nmages, castTime,ncasts);
     if computeDPS
         [~,~,ExpectedTicks] = Transition(critpct,nmages, castTime,ncasts);
         [directDmg,directProb] = directDamage(SP,hitpct,critpct, Dmin,Dmax,ncasts,castTime,false);
