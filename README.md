@@ -1,3 +1,4 @@
+Contact me on Discord as Muir/Gauss#5160
 # Probabilistic Fire Analysis
 [Click here](https://www.youtube.com/watch?v=Ymq60CjyUSs) for a quick video introduction. 
 ![aapplication preview](https://github.com/MuirTheMage/ProbabilisticFireAnalysis/blob/master/applicationPreview.png)
